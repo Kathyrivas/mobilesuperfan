@@ -1,0 +1,49 @@
+.container { 
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.red {
+	background-color: #D63C35;
+	height: 15vh;
+	width: 100vw;
+}
+
+.blue {
+	background-color: #1D5CC5;
+	height: 90vh;
+	width: 100vw;
+}
+
+.purple {
+	background-color: #8544E8;
+	height: 60vh;
+	width: 100vw;
+}
+
+.orange {
+	background-color: #E4A856;
+	height: 60vh;
+	width: 50vw;
+}
+
+.button {
+}
+
+@media screen and (max-width:800px){
+	
+	.purple{
+		height: 80vh;
+		width: 100vw;
+	} 
+	.orange{ 
+		height: 80vh;
+		width: 50vw;
+	}
+	
+	.red {
+		height: 50vw;
+		width: 100vw;
+	}
